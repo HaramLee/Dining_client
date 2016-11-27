@@ -46,3 +46,15 @@ LAB-LOG
 - Added a checkout and clear functions to finalize an order or clear it using session data
 - Orders are saved to an XML file in the data folder
 - Function to retrieve previous orders and parse the stored XML files
+
+11/26/2016 04:30 PM - Haram / Andrew
+- Set up the database server of the lab by cleaning out the unrequired table.
+- Removed all the unnecessary model class and control class.
+- Setup a String that is displayed when someone tried to enter the server web app.
+- Setup the backend package with restful and created restful api controller
+- Added get, post, and put method in aspect of CRUD
+
+11/26/2016 06:30 PM - Haram / Andrew
+- Set up the database server of the lab by cleaning out the unrequired table.
+- Added restful api as third party
+- Updated Menu model class to call get, post, and put to the server side 
